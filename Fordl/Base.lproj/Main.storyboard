@@ -161,11 +161,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKE-ql-KJo">
+                                <rect key="frame" x="268" y="586" width="100" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ZNc-sJ-A7d"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                    <imageReference key="image" image="delete.left.fill" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23" scale="large"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="kbDelete:" destination="CFH-yc-JM6" eventType="touchUpInside" id="VXk-Tr-Ohb"/>
+                                </connections>
+                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EW4-Ce-d4o">
-                                <rect key="frame" x="20" y="54" width="335" height="350"/>
+                                <rect key="frame" x="20" y="54" width="336" height="350"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="10" id="hjz-ej-6cs" userLabel="row1">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="62"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="336" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="No3-pn-lG8">
@@ -176,7 +192,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsFontForContentSizeCategory="YES" id="syu-3e-Jg1">
-                                                <rect key="frame" x="69" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="69" y="0.0" width="59.5" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -184,7 +200,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsFontForContentSizeCategory="YES" id="nFh-M0-CH6">
-                                                <rect key="frame" x="138" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="138.5" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -192,7 +208,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsFontForContentSizeCategory="YES" id="EFX-fe-i5H">
-                                                <rect key="frame" x="207" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="207.5" y="0.0" width="59.5" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -200,7 +216,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsFontForContentSizeCategory="YES" id="x63-3s-h3S">
-                                                <rect key="frame" x="276" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="277" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -211,7 +227,7 @@
                                         <viewLayoutGuide key="safeArea" id="S6F-wi-nwc"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" id="C1f-bj-lzm" userLabel="row2">
-                                        <rect key="frame" x="0.0" y="72" width="335" height="62"/>
+                                        <rect key="frame" x="0.0" y="72" width="336" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ob4-2K-4QA">
@@ -223,7 +239,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VCK-HQ-9X3">
-                                                <rect key="frame" x="69" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="69" y="0.0" width="59.5" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -231,7 +247,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c91-UB-HxI">
-                                                <rect key="frame" x="138" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="138.5" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -239,14 +255,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTD-wc-CPq">
-                                                <rect key="frame" x="207" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="207.5" y="0.0" width="59.5" height="62"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="r7f-er-iha">
-                                                <rect key="frame" x="276" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="277" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -257,7 +273,7 @@
                                         <viewLayoutGuide key="safeArea" id="P0a-OA-ggN"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" id="YG4-mS-MwW" userLabel="row3">
-                                        <rect key="frame" x="0.0" y="144" width="335" height="62"/>
+                                        <rect key="frame" x="0.0" y="144" width="336" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Vk-dG-cH3">
@@ -269,7 +285,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GFn-kd-w36">
-                                                <rect key="frame" x="69" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="69" y="0.0" width="59.5" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -277,7 +293,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="y3O-o8-ihd">
-                                                <rect key="frame" x="138" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="138.5" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -285,7 +301,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="woK-aT-kZt">
-                                                <rect key="frame" x="207" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="207.5" y="0.0" width="59.5" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -293,7 +309,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvo-aR-dVj">
-                                                <rect key="frame" x="276" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="277" y="0.0" width="59" height="62"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -303,7 +319,7 @@
                                         <viewLayoutGuide key="safeArea" id="L7b-8B-OXe"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" id="vvJ-oc-KQr" userLabel="row4">
-                                        <rect key="frame" x="0.0" y="216" width="335" height="62"/>
+                                        <rect key="frame" x="0.0" y="216" width="336" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hT9-ql-61i">
@@ -314,7 +330,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yIJ-Fj-OlE">
-                                                <rect key="frame" x="69" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="69" y="0.0" width="59.5" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -322,7 +338,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RYr-uN-S5A">
-                                                <rect key="frame" x="138" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="138.5" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -330,7 +346,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="amk-qq-ioT">
-                                                <rect key="frame" x="207" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="207.5" y="0.0" width="59.5" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -338,7 +354,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MEb-Eg-WzS">
-                                                <rect key="frame" x="276" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="277" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -349,7 +365,7 @@
                                         <viewLayoutGuide key="safeArea" id="2UQ-5U-iud"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" id="4tp-MN-KdR" userLabel="row5">
-                                        <rect key="frame" x="0.0" y="288" width="335" height="62"/>
+                                        <rect key="frame" x="0.0" y="288" width="336" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="j87-bg-mnF">
@@ -361,14 +377,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bg8-k4-fga">
-                                                <rect key="frame" x="69" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="69" y="0.0" width="59.5" height="62"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4lJ-qg-GBI">
-                                                <rect key="frame" x="138" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="138.5" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -376,7 +392,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gIm-hQ-wMb">
-                                                <rect key="frame" x="207" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="207.5" y="0.0" width="59.5" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -384,7 +400,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Drn-0j-ZAu">
-                                                <rect key="frame" x="276" y="0.0" width="59" height="62"/>
+                                                <rect key="frame" x="277" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -399,25 +415,11 @@
                                     <constraint firstAttribute="height" constant="350" id="UpI-Wh-Yhd"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKE-ql-KJo">
-                                <rect key="frame" x="318" y="533" width="49" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <imageReference key="image" image="delete.left.fill" catalog="system" symbolScale="large"/>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23" scale="large"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="kbdelete:" destination="CFH-yc-JM6" eventType="touchUpInside" id="8Lb-b6-9oc"/>
-                                </connections>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="wJt-Wt-sTK">
-                                <rect key="frame" x="8" y="430" width="359" height="147.5"/>
+                                <rect key="frame" x="8" y="430" width="360" height="147.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="xGs-1i-izX">
-                                        <rect key="frame" x="0.0" y="0.0" width="359" height="46.5"/>
+                                        <rect key="frame" x="0.5" y="0.0" width="359" height="46.5"/>
                                         <subviews>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="xqx-Fm-ARn">
                                                 <rect key="frame" x="0.0" y="0.0" width="30.5" height="46.5"/>
@@ -430,7 +432,7 @@
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                                 <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="ySx-QT-b8S" appends="YES" id="lGi-dK-L0C"/>
+                                                    <outletCollection property="gestureRecognizers" destination="sqa-oZ-mWA" appends="YES" id="gG4-jZ-B9l"/>
                                                 </connections>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="W" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="U4E-m4-Ol7">
@@ -442,6 +444,9 @@
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="ySx-QT-b8S" appends="YES" id="AC9-7E-Yuo"/>
+                                                </connections>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="Jvh-7A-V9a">
                                                 <rect key="frame" x="73" y="0.0" width="30.5" height="46.5"/>
@@ -562,7 +567,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="24F-OW-bMJ">
-                                        <rect key="frame" x="18.5" y="50.5" width="322.5" height="46.5"/>
+                                        <rect key="frame" x="19" y="50.5" width="322.5" height="46.5"/>
                                         <subviews>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="dXr-5h-noa">
                                                 <rect key="frame" x="0.0" y="0.0" width="30.5" height="46.5"/>
@@ -697,7 +702,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="31o-3v-TUu">
-                                        <rect key="frame" x="55" y="101" width="249.5" height="46.5"/>
+                                        <rect key="frame" x="55.5" y="101" width="249.5" height="46.5"/>
                                         <subviews>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Z" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="4D9-wT-ptB">
                                                 <rect key="frame" x="0.0" y="0.0" width="30.5" height="46.5"/>
@@ -805,13 +810,16 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqU-Cr-7u3">
-                                <rect key="frame" x="8" y="531" width="50" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqU-Cr-7u3">
+                                <rect key="frame" x="8" y="586" width="100" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="NEi-6g-xIr"/>
+                                    <constraint firstAttribute="height" constant="56" id="RnE-bS-Y2k"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
                                     <imageReference key="image" image="arrow.turn.down.left" catalog="system" symbolScale="large"/>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23" scale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30" scale="large" weight="bold"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -824,16 +832,23 @@
                         <color key="backgroundColor" red="0.24126080389999999" green="0.080273020779999996" blue="0.05099182142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="vqU-Cr-7u3" secondAttribute="bottom" constant="25" id="1YB-35-Sga"/>
+                            <constraint firstItem="vqU-Cr-7u3" firstAttribute="top" secondItem="idK-Qc-DWN" secondAttribute="topMargin" constant="542" id="30b-jM-mLj"/>
+                            <constraint firstAttribute="bottom" secondItem="OKE-ql-KJo" secondAttribute="bottom" constant="20" id="3rh-fb-hfs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vqU-Cr-7u3" secondAttribute="trailing" constant="252" id="5Wn-QU-98W"/>
                             <constraint firstAttribute="bottom" secondItem="wJt-Wt-sTK" secondAttribute="bottom" constant="89.5" id="R11-eq-EXf"/>
                             <constraint firstItem="EW4-Ce-d4o" firstAttribute="leading" secondItem="T6q-AV-rDw" secondAttribute="leading" constant="20" id="VrL-dX-fou"/>
                             <constraint firstItem="EW4-Ce-d4o" firstAttribute="top" secondItem="T6q-AV-rDw" secondAttribute="top" constant="10" id="Z8z-8X-VFQ"/>
+                            <constraint firstItem="OKE-ql-KJo" firstAttribute="top" secondItem="idK-Qc-DWN" secondAttribute="top" constant="586" id="f0T-64-aAm"/>
                             <constraint firstItem="T6q-AV-rDw" firstAttribute="trailing" secondItem="EW4-Ce-d4o" secondAttribute="trailing" constant="20" id="gte-yD-rEw"/>
+                            <constraint firstAttribute="trailing" secondItem="OKE-ql-KJo" secondAttribute="trailing" constant="8" id="nUP-WY-jaz"/>
+                            <constraint firstItem="OKE-ql-KJo" firstAttribute="leading" secondItem="idK-Qc-DWN" secondAttribute="leading" constant="268" id="oJ6-GR-eBZ"/>
                             <constraint firstItem="wJt-Wt-sTK" firstAttribute="top" secondItem="idK-Qc-DWN" secondAttribute="top" constant="430" id="psv-kS-hJB"/>
+                            <constraint firstItem="vqU-Cr-7u3" firstAttribute="leading" secondItem="T6q-AV-rDw" secondAttribute="leading" constant="8" id="stm-Jl-xDz"/>
                             <constraint firstItem="wJt-Wt-sTK" firstAttribute="leading" secondItem="idK-Qc-DWN" secondAttribute="leading" constant="8" id="uaE-kx-Gr7"/>
                             <constraint firstAttribute="trailing" secondItem="wJt-Wt-sTK" secondAttribute="trailing" constant="8" id="zSK-kF-EYN"/>
                         </constraints>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="2BE-vu-coj" appends="YES" id="VcQ-fy-ssa"/>
                             <outletCollection property="gestureRecognizers" destination="8A1-dV-eQ4" appends="YES" id="Hbi-yP-RIU"/>
                         </connections>
                     </view>
@@ -879,32 +894,6 @@
                         <outletCollection property="row5" destination="4lJ-qg-GBI" collectionClass="NSMutableArray" id="XoK-3J-tHN"/>
                         <outletCollection property="row5" destination="gIm-hQ-wMb" collectionClass="NSMutableArray" id="SKq-GJ-xtZ"/>
                         <outletCollection property="row5" destination="Drn-0j-ZAu" collectionClass="NSMutableArray" id="iq5-ka-LHM"/>
-                        <outletCollection property="keyboard" destination="U7E-nK-uY2" collectionClass="NSMutableArray" id="Pep-X2-b3X"/>
-                        <outletCollection property="keyboard" destination="Jvh-7A-V9a" collectionClass="NSMutableArray" id="JTF-AE-615"/>
-                        <outletCollection property="keyboard" destination="xtZ-Tt-rX3" collectionClass="NSMutableArray" id="Wjw-sa-WFi"/>
-                        <outletCollection property="keyboard" destination="kSy-Gh-aJA" collectionClass="NSMutableArray" id="IzW-zm-kIH"/>
-                        <outletCollection property="keyboard" destination="a0X-KD-gUM" collectionClass="NSMutableArray" id="h0j-dG-0Uv"/>
-                        <outletCollection property="keyboard" destination="khW-ym-sge" collectionClass="NSMutableArray" id="Lt6-aW-kB2"/>
-                        <outletCollection property="keyboard" destination="xqx-Fm-ARn" collectionClass="NSMutableArray" id="fZh-79-WT3"/>
-                        <outletCollection property="keyboard" destination="U4E-m4-Ol7" collectionClass="NSMutableArray" id="ywl-t5-LAg"/>
-                        <outletCollection property="keyboard" destination="YSR-vO-0co" collectionClass="NSMutableArray" id="C6v-SN-BC7"/>
-                        <outletCollection property="keyboard" destination="hue-5X-HSe" collectionClass="NSMutableArray" id="IH9-Oh-L6p"/>
-                        <outletCollection property="keyboard" destination="c3Y-pK-Tt0" collectionClass="NSMutableArray" id="Nk3-uG-B7H"/>
-                        <outletCollection property="keyboard" destination="hIx-hX-WIm" collectionClass="NSMutableArray" id="u1e-dT-f2p"/>
-                        <outletCollection property="keyboard" destination="Y5i-sT-iYz" collectionClass="NSMutableArray" id="ogt-y2-pek"/>
-                        <outletCollection property="keyboard" destination="Q3Z-kY-1lW" collectionClass="NSMutableArray" id="SSl-BB-P9R"/>
-                        <outletCollection property="keyboard" destination="dXr-5h-noa" collectionClass="NSMutableArray" id="qki-4O-wq1"/>
-                        <outletCollection property="keyboard" destination="qEH-rH-Hei" collectionClass="NSMutableArray" id="d2J-DE-xh9"/>
-                        <outletCollection property="keyboard" destination="RbJ-Ae-MYH" collectionClass="NSMutableArray" id="Eyc-Ob-raW"/>
-                        <outletCollection property="keyboard" destination="qkI-Bk-C9t" collectionClass="NSMutableArray" id="8fB-fh-MDT"/>
-                        <outletCollection property="keyboard" destination="aIB-c0-kok" collectionClass="NSMutableArray" id="daJ-He-qYi"/>
-                        <outletCollection property="keyboard" destination="4D9-wT-ptB" collectionClass="NSMutableArray" id="byV-6L-q8p"/>
-                        <outletCollection property="keyboard" destination="nEF-0z-jiq" collectionClass="NSMutableArray" id="Qeo-gR-iQY"/>
-                        <outletCollection property="keyboard" destination="OkC-yo-dZ3" collectionClass="NSMutableArray" id="bPH-k3-3Bc"/>
-                        <outletCollection property="keyboard" destination="76x-tv-92y" collectionClass="NSMutableArray" id="6Ct-uJ-HoU"/>
-                        <outletCollection property="keyboard" destination="PyW-Oa-sG5" collectionClass="NSMutableArray" id="O18-wH-eHe"/>
-                        <outletCollection property="keyboard" destination="BwA-Rn-JFp" collectionClass="NSMutableArray" id="5id-Jc-ERv"/>
-                        <outletCollection property="keyboard" destination="DrH-0z-RWK" collectionClass="NSMutableArray" id="Ctb-hb-tGC"/>
                         <outletCollection property="keyboard" destination="xqx-Fm-ARn" collectionClass="NSMutableArray" id="LLq-ub-5eq"/>
                         <outletCollection property="keyboard" destination="U4E-m4-Ol7" collectionClass="NSMutableArray" id="w2l-1A-5vI"/>
                         <outletCollection property="keyboard" destination="Jvh-7A-V9a" collectionClass="NSMutableArray" id="Gjd-Mv-Hop"/>
@@ -934,14 +923,14 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qam-nU-xBt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="2BE-vu-coj" userLabel="q">
+                <tapGestureRecognizer id="sqa-oZ-mWA" userLabel="q">
                     <connections>
-                        <action selector="q:" destination="CFH-yc-JM6" id="5K2-Pp-1QC"/>
+                        <action selector="q:" destination="CFH-yc-JM6" id="EH3-xW-9Ej"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="ySx-QT-b8S" userLabel="w">
                     <connections>
-                        <action selector="w:" destination="CFH-yc-JM6" id="LYx-l8-vt0"/>
+                        <action selector="w:" destination="CFH-yc-JM6" id="qj2-De-D2Y"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="8L4-9A-psQ" userLabel="e">
@@ -1031,7 +1020,7 @@
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="raT-ag-vdy" userLabel="z">
                     <connections>
-                        <action selector="z:" destination="CFH-yc-JM6" id="rXY-Sc-Eeg"/>
+                        <action selector="z:" destination="CFH-yc-JM6" id="BIP-x9-4Bh"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="3sZ-tW-pQy" userLabel="x">

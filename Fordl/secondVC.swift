@@ -115,14 +115,15 @@ class secondVC: UIViewController
         print(key.text!)
     }
     
-    
     @IBAction func q(_ sender: UITapGestureRecognizer)
     {
-    keyboard(key: keyboard[0])
+        keyboard(key: keyboard[0])
     }
+    
     
     @IBAction func w(_ sender: UITapGestureRecognizer)
     {
+        print("hit")
         keyboard(key: keyboard[1])
     }
     
@@ -262,16 +263,17 @@ class secondVC: UIViewController
     changeLabel()
     }
     
-    @IBAction func kbdelete(_ sender: UIButton)
+
+    @IBAction func kbDelete(_ sender: UIButton)
     {
-       print("hit")
-        if guessField.text != ""
-        {
-        var text = guessField.text!
-        guessField.text = String(text.removeLast())
-        print(guessField.text)
-        print(String(text.removeLast()))
-        }
+        print("hit")
+         if guessField.text != ""
+         {
+         var text = guessField.text!
+         guessField.text = String(text.removeLast())
+         print(guessField.text)
+         print(String(text.removeLast()))
+         }
     }
     
 

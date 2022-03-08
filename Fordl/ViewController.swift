@@ -126,7 +126,8 @@ class ViewController: UIViewController
     
     @IBAction func openFordian(_ sender: UITapGestureRecognizer)
     {
-        if let url = URL(string: "https://thefordian.com/") {
+        if let url = URL(string: "https://thefordian.com/")
+        {
             UIApplication.shared.open(url)
         }
 
