@@ -19,6 +19,11 @@ class secondVC: UIViewController
     @IBOutlet var row4: [UILabel]!
     @IBOutlet var row5: [UILabel]!
     
+    var green: [Int] = []
+    var yellow: [Int] = []
+    var gray: [String] = []
+    var none: [Int] = []
+    
     @IBOutlet var keyboard: [UILabel]!
     
     //remember: 0 is Q, 25 is M
@@ -77,6 +82,8 @@ class secondVC: UIViewController
             if currentWordString.contains(guessCharacters[j])
             {
                 row[j].backgroundColor = UIColor.yellow
+                
+            
                 if guessCharacters[j] == wordChar[j]
                 {
                     row[j].backgroundColor = UIColor.green
@@ -86,7 +93,9 @@ class secondVC: UIViewController
             else
             {
                 row[j].backgroundColor = UIColor.gray
+                
             }
+            
             
             if guess == currentWord[0]
             {
@@ -270,9 +279,8 @@ class secondVC: UIViewController
          if guessField.text != ""
          {
          var text = guessField.text!
-         guessField.text = String(text.removeLast())
-         print(guessField.text)
-         print(String(text.removeLast()))
+             text.removeLast()
+             guessField.text = text
          }
     }
     
