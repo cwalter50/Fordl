@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Fordl" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Fordl" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -157,26 +157,26 @@
         <scene sceneID="dOx-fa-d7V">
             <objects>
                 <viewController storyboardIdentifier="secondVC" title="secondVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CFH-yc-JM6" customClass="secondVC" customModule="Fordl" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="idK-Qc-DWN">
+                    <view key="view" contentMode="scaleToFill" id="idK-Qc-DWN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EW4-Ce-d4o">
-                                <rect key="frame" x="20" y="54" width="110" height="350"/>
+                                <rect key="frame" x="20" y="54" width="335" height="350"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="10" id="hjz-ej-6cs" userLabel="row1">
-                                        <rect key="frame" x="0.0" y="0.0" width="110" height="62"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="No3-pn-lG8">
-                                                <rect key="frame" x="0.0" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="59" height="62"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsFontForContentSizeCategory="YES" id="syu-3e-Jg1">
-                                                <rect key="frame" x="24" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="69" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -184,7 +184,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsFontForContentSizeCategory="YES" id="nFh-M0-CH6">
-                                                <rect key="frame" x="48" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="138" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -192,7 +192,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsFontForContentSizeCategory="YES" id="EFX-fe-i5H">
-                                                <rect key="frame" x="72" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="207" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -200,7 +200,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="25" adjustsFontForContentSizeCategory="YES" id="x63-3s-h3S">
-                                                <rect key="frame" x="96" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="276" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -211,11 +211,11 @@
                                         <viewLayoutGuide key="safeArea" id="S6F-wi-nwc"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" id="C1f-bj-lzm" userLabel="row2">
-                                        <rect key="frame" x="0.0" y="72" width="110" height="62"/>
+                                        <rect key="frame" x="0.0" y="72" width="335" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ob4-2K-4QA">
-                                                <rect key="frame" x="0.0" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -223,7 +223,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VCK-HQ-9X3">
-                                                <rect key="frame" x="24" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="69" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -231,7 +231,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c91-UB-HxI">
-                                                <rect key="frame" x="48" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="138" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -239,14 +239,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTD-wc-CPq">
-                                                <rect key="frame" x="72" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="207" y="0.0" width="59" height="62"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="r7f-er-iha">
-                                                <rect key="frame" x="96" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="276" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -257,11 +257,11 @@
                                         <viewLayoutGuide key="safeArea" id="P0a-OA-ggN"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" id="YG4-mS-MwW" userLabel="row3">
-                                        <rect key="frame" x="0.0" y="144" width="110" height="62"/>
+                                        <rect key="frame" x="0.0" y="144" width="335" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Vk-dG-cH3">
-                                                <rect key="frame" x="0.0" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -269,7 +269,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GFn-kd-w36">
-                                                <rect key="frame" x="24" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="69" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -277,7 +277,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="y3O-o8-ihd">
-                                                <rect key="frame" x="48" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="138" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -285,7 +285,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="woK-aT-kZt">
-                                                <rect key="frame" x="72" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="207" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -293,7 +293,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvo-aR-dVj">
-                                                <rect key="frame" x="96" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="276" y="0.0" width="59" height="62"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -303,18 +303,18 @@
                                         <viewLayoutGuide key="safeArea" id="L7b-8B-OXe"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" id="vvJ-oc-KQr" userLabel="row4">
-                                        <rect key="frame" x="0.0" y="216" width="110" height="62"/>
+                                        <rect key="frame" x="0.0" y="216" width="335" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hT9-ql-61i">
-                                                <rect key="frame" x="0.0" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="59" height="62"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yIJ-Fj-OlE">
-                                                <rect key="frame" x="24" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="69" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -322,7 +322,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RYr-uN-S5A">
-                                                <rect key="frame" x="48" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="138" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -330,7 +330,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="amk-qq-ioT">
-                                                <rect key="frame" x="72" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="207" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -338,7 +338,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MEb-Eg-WzS">
-                                                <rect key="frame" x="96" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="276" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -349,11 +349,11 @@
                                         <viewLayoutGuide key="safeArea" id="2UQ-5U-iud"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" id="4tp-MN-KdR" userLabel="row5">
-                                        <rect key="frame" x="0.0" y="288" width="110" height="62"/>
+                                        <rect key="frame" x="0.0" y="288" width="335" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="j87-bg-mnF">
-                                                <rect key="frame" x="0.0" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -361,14 +361,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bg8-k4-fga">
-                                                <rect key="frame" x="24" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="69" y="0.0" width="59" height="62"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4lJ-qg-GBI">
-                                                <rect key="frame" x="48" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="138" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -376,7 +376,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gIm-hQ-wMb">
-                                                <rect key="frame" x="72" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="207" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -384,7 +384,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Drn-0j-ZAu">
-                                                <rect key="frame" x="96" y="0.0" width="14" height="62"/>
+                                                <rect key="frame" x="276" y="0.0" width="59" height="62"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -399,14 +399,443 @@
                                     <constraint firstAttribute="height" constant="350" id="UpI-Wh-Yhd"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKE-ql-KJo">
+                                <rect key="frame" x="318" y="533" width="49" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                    <imageReference key="image" image="delete.left.fill" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23" scale="large"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="kbdelete:" destination="CFH-yc-JM6" eventType="touchUpInside" id="8Lb-b6-9oc"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="wJt-Wt-sTK">
+                                <rect key="frame" x="8" y="430" width="359" height="147.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="xGs-1i-izX">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="46.5"/>
+                                        <subviews>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="xqx-Fm-ARn">
+                                                <rect key="frame" x="0.0" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="JcC-qf-epu"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="ySx-QT-b8S" appends="YES" id="lGi-dK-L0C"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="W" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="U4E-m4-Ol7">
+                                                <rect key="frame" x="36.5" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="Yi0-oG-Sgx"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="Jvh-7A-V9a">
+                                                <rect key="frame" x="73" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30.5" id="7XE-KW-E2I"/>
+                                                    <constraint firstAttribute="width" constant="30.5" id="DJc-Fe-1AL"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="8L4-9A-psQ" appends="YES" id="Bnp-1P-iw2"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="a0X-KD-gUM">
+                                                <rect key="frame" x="109.5" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="mMX-bQ-Rb8"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="bvV-d0-ojQ" appends="YES" id="880-cp-yBF"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="kSy-Gh-aJA">
+                                                <rect key="frame" x="146" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="nz1-zW-i50"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="7kU-FZ-qxY" appends="YES" id="VPZ-Ul-2Fw"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Y" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="YSR-vO-0co">
+                                                <rect key="frame" x="182.5" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="77o-9V-tJ7"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="xvP-YW-yeF" appends="YES" id="uAx-d3-KUJ"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="U" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="hue-5X-HSe">
+                                                <rect key="frame" x="219" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="w8P-I4-o5S"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="dFA-fQ-6U0" appends="YES" id="ueO-WZ-GJc"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="U7E-nK-uY2">
+                                                <rect key="frame" x="255.5" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="TzG-E8-jbb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="u5a-Tn-xNi" appends="YES" id="44Q-91-MAY"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="khW-ym-sge">
+                                                <rect key="frame" x="292" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="b45-qc-Npc"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="8aA-Hm-wI2" appends="YES" id="Xz7-mD-aWd"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="xtZ-Tt-rX3">
+                                                <rect key="frame" x="328.5" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="bIr-aU-KxC"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="yOi-rd-Bgv" appends="YES" id="NCj-kW-VKT"/>
+                                                </connections>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46.5" id="KbQ-JS-5dR"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="24F-OW-bMJ">
+                                        <rect key="frame" x="18.5" y="50.5" width="322.5" height="46.5"/>
+                                        <subviews>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="dXr-5h-noa">
+                                                <rect key="frame" x="0.0" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="9yR-tP-HOQ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="wCJ-VI-CpB" appends="YES" id="089-vk-qw0"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="hIx-hX-WIm">
+                                                <rect key="frame" x="36.5" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="Tcc-yU-aKB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="adW-tg-6oQ" appends="YES" id="Ncq-JH-C9z"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="RbJ-Ae-MYH">
+                                                <rect key="frame" x="73" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="1Wf-BJ-P22"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30.5" id="ECz-XT-Ge0"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="FSu-Wh-HQy" appends="YES" id="gK5-P3-AfT"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="qkI-Bk-C9t">
+                                                <rect key="frame" x="109.5" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="nll-kE-qCJ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="wbp-jV-ZBp" appends="YES" id="fVo-wO-mOo"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="G" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="Y5i-sT-iYz">
+                                                <rect key="frame" x="146" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="CFR-Tg-Sw8"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="Afk-Hj-33a" appends="YES" id="VCw-Va-o22"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="qEH-rH-Hei">
+                                                <rect key="frame" x="182.5" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="yhz-wd-Ed3"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="0dX-7E-dB3" appends="YES" id="BRL-Wg-akS"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="c3Y-pK-Tt0">
+                                                <rect key="frame" x="219" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="Vfq-o9-QUo"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="47E-nD-dYr" appends="YES" id="Udz-Se-FQk"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="K" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="aIB-c0-kok">
+                                                <rect key="frame" x="255.5" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="59g-84-u2Y"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="3CY-ZI-T08" appends="YES" id="4Xy-bI-fUQ"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="L" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="Q3Z-kY-1lW">
+                                                <rect key="frame" x="292" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="oyT-bO-fkM"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="htv-4k-sK6" appends="YES" id="3m9-ti-iP1"/>
+                                                </connections>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46.5" id="6v5-6z-Xvc"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="31o-3v-TUu">
+                                        <rect key="frame" x="55" y="101" width="249.5" height="46.5"/>
+                                        <subviews>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Z" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="4D9-wT-ptB">
+                                                <rect key="frame" x="0.0" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="e7w-tw-oSG"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="raT-ag-vdy" appends="YES" id="iyR-rQ-19J"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="nEF-0z-jiq">
+                                                <rect key="frame" x="36.5" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="hsQ-Ar-3WT"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="3sZ-tW-pQy" appends="YES" id="2fr-No-aFT"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="PyW-Oa-sG5">
+                                                <rect key="frame" x="73" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30.5" id="t6t-Ls-BBr"/>
+                                                    <constraint firstAttribute="width" constant="30.5" id="z8y-eN-7Tq"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="9i9-Vf-Gw6" appends="YES" id="h1B-MS-592"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="DrH-0z-RWK">
+                                                <rect key="frame" x="109.5" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="VpN-hH-kEv"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="TVP-KL-wm3" appends="YES" id="2yG-Wh-ZhV"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="BwA-Rn-JFp">
+                                                <rect key="frame" x="146" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="33x-DX-ybO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="I0r-ID-r7j" appends="YES" id="1cP-Zb-i2C"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="76x-tv-92y">
+                                                <rect key="frame" x="182.5" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="CKJ-vl-gKX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="9oC-Xn-goz" appends="YES" id="mtu-46-Q33"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30.5" translatesAutoresizingMaskIntoConstraints="NO" id="OkC-yo-dZ3">
+                                                <rect key="frame" x="219" y="0.0" width="30.5" height="46.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30.5" id="dyV-1a-BAZ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="35"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="ZGb-J6-FVd" appends="YES" id="Pdy-4D-qg7"/>
+                                                </connections>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46.5" id="XtQ-5o-xP4"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqU-Cr-7u3">
+                                <rect key="frame" x="8" y="531" width="50" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                    <imageReference key="image" image="arrow.turn.down.left" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23" scale="large"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="kbEnter:" destination="CFH-yc-JM6" eventType="touchUpInside" id="Lql-kQ-oBh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="T6q-AV-rDw"/>
                         <color key="backgroundColor" red="0.24126080389999999" green="0.080273020779999996" blue="0.05099182142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="wJt-Wt-sTK" secondAttribute="bottom" constant="89.5" id="R11-eq-EXf"/>
                             <constraint firstItem="EW4-Ce-d4o" firstAttribute="leading" secondItem="T6q-AV-rDw" secondAttribute="leading" constant="20" id="VrL-dX-fou"/>
                             <constraint firstItem="EW4-Ce-d4o" firstAttribute="top" secondItem="T6q-AV-rDw" secondAttribute="top" constant="10" id="Z8z-8X-VFQ"/>
                             <constraint firstItem="T6q-AV-rDw" firstAttribute="trailing" secondItem="EW4-Ce-d4o" secondAttribute="trailing" constant="20" id="gte-yD-rEw"/>
+                            <constraint firstItem="wJt-Wt-sTK" firstAttribute="top" secondItem="idK-Qc-DWN" secondAttribute="top" constant="430" id="psv-kS-hJB"/>
+                            <constraint firstItem="wJt-Wt-sTK" firstAttribute="leading" secondItem="idK-Qc-DWN" secondAttribute="leading" constant="8" id="uaE-kx-Gr7"/>
+                            <constraint firstAttribute="trailing" secondItem="wJt-Wt-sTK" secondAttribute="trailing" constant="8" id="zSK-kF-EYN"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="2BE-vu-coj" appends="YES" id="VcQ-fy-ssa"/>
+                            <outletCollection property="gestureRecognizers" destination="8A1-dV-eQ4" appends="YES" id="Hbi-yP-RIU"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="t0f-QN-0rs">
                         <nil key="title"/>
@@ -416,20 +845,12 @@
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                         </textField>
-                        <rightBarButtonItems>
-                            <barButtonItem id="iBe-ns-UXY">
-                                <imageReference key="image" image="return" catalog="system" symbolScale="large"/>
-                                <connections>
-                                    <action selector="enter:" destination="CFH-yc-JM6" id="HRP-0j-NdL"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem title="dismiss keyboard" id="0wz-0K-ofn">
-                                <imageReference key="image" image="keyboard.chevron.compact.left" catalog="system" symbolScale="large"/>
-                                <connections>
-                                    <action selector="dismissKeyboard:" destination="CFH-yc-JM6" id="vd2-ny-Ddc"/>
-                                </connections>
-                            </barButtonItem>
-                        </rightBarButtonItems>
+                        <barButtonItem key="rightBarButtonItem" id="iBe-ns-UXY">
+                            <imageReference key="image" image="return" catalog="system" symbolScale="large"/>
+                            <connections>
+                                <action selector="enter:" destination="CFH-yc-JM6" id="HRP-0j-NdL"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="guessField" destination="rJc-95-1oW" id="uJb-ey-pZz"/>
@@ -458,16 +879,203 @@
                         <outletCollection property="row5" destination="4lJ-qg-GBI" collectionClass="NSMutableArray" id="XoK-3J-tHN"/>
                         <outletCollection property="row5" destination="gIm-hQ-wMb" collectionClass="NSMutableArray" id="SKq-GJ-xtZ"/>
                         <outletCollection property="row5" destination="Drn-0j-ZAu" collectionClass="NSMutableArray" id="iq5-ka-LHM"/>
+                        <outletCollection property="keyboard" destination="U7E-nK-uY2" collectionClass="NSMutableArray" id="Pep-X2-b3X"/>
+                        <outletCollection property="keyboard" destination="Jvh-7A-V9a" collectionClass="NSMutableArray" id="JTF-AE-615"/>
+                        <outletCollection property="keyboard" destination="xtZ-Tt-rX3" collectionClass="NSMutableArray" id="Wjw-sa-WFi"/>
+                        <outletCollection property="keyboard" destination="kSy-Gh-aJA" collectionClass="NSMutableArray" id="IzW-zm-kIH"/>
+                        <outletCollection property="keyboard" destination="a0X-KD-gUM" collectionClass="NSMutableArray" id="h0j-dG-0Uv"/>
+                        <outletCollection property="keyboard" destination="khW-ym-sge" collectionClass="NSMutableArray" id="Lt6-aW-kB2"/>
+                        <outletCollection property="keyboard" destination="xqx-Fm-ARn" collectionClass="NSMutableArray" id="fZh-79-WT3"/>
+                        <outletCollection property="keyboard" destination="U4E-m4-Ol7" collectionClass="NSMutableArray" id="ywl-t5-LAg"/>
+                        <outletCollection property="keyboard" destination="YSR-vO-0co" collectionClass="NSMutableArray" id="C6v-SN-BC7"/>
+                        <outletCollection property="keyboard" destination="hue-5X-HSe" collectionClass="NSMutableArray" id="IH9-Oh-L6p"/>
+                        <outletCollection property="keyboard" destination="c3Y-pK-Tt0" collectionClass="NSMutableArray" id="Nk3-uG-B7H"/>
+                        <outletCollection property="keyboard" destination="hIx-hX-WIm" collectionClass="NSMutableArray" id="u1e-dT-f2p"/>
+                        <outletCollection property="keyboard" destination="Y5i-sT-iYz" collectionClass="NSMutableArray" id="ogt-y2-pek"/>
+                        <outletCollection property="keyboard" destination="Q3Z-kY-1lW" collectionClass="NSMutableArray" id="SSl-BB-P9R"/>
+                        <outletCollection property="keyboard" destination="dXr-5h-noa" collectionClass="NSMutableArray" id="qki-4O-wq1"/>
+                        <outletCollection property="keyboard" destination="qEH-rH-Hei" collectionClass="NSMutableArray" id="d2J-DE-xh9"/>
+                        <outletCollection property="keyboard" destination="RbJ-Ae-MYH" collectionClass="NSMutableArray" id="Eyc-Ob-raW"/>
+                        <outletCollection property="keyboard" destination="qkI-Bk-C9t" collectionClass="NSMutableArray" id="8fB-fh-MDT"/>
+                        <outletCollection property="keyboard" destination="aIB-c0-kok" collectionClass="NSMutableArray" id="daJ-He-qYi"/>
+                        <outletCollection property="keyboard" destination="4D9-wT-ptB" collectionClass="NSMutableArray" id="byV-6L-q8p"/>
+                        <outletCollection property="keyboard" destination="nEF-0z-jiq" collectionClass="NSMutableArray" id="Qeo-gR-iQY"/>
+                        <outletCollection property="keyboard" destination="OkC-yo-dZ3" collectionClass="NSMutableArray" id="bPH-k3-3Bc"/>
+                        <outletCollection property="keyboard" destination="76x-tv-92y" collectionClass="NSMutableArray" id="6Ct-uJ-HoU"/>
+                        <outletCollection property="keyboard" destination="PyW-Oa-sG5" collectionClass="NSMutableArray" id="O18-wH-eHe"/>
+                        <outletCollection property="keyboard" destination="BwA-Rn-JFp" collectionClass="NSMutableArray" id="5id-Jc-ERv"/>
+                        <outletCollection property="keyboard" destination="DrH-0z-RWK" collectionClass="NSMutableArray" id="Ctb-hb-tGC"/>
+                        <outletCollection property="keyboard" destination="xqx-Fm-ARn" collectionClass="NSMutableArray" id="LLq-ub-5eq"/>
+                        <outletCollection property="keyboard" destination="U4E-m4-Ol7" collectionClass="NSMutableArray" id="w2l-1A-5vI"/>
+                        <outletCollection property="keyboard" destination="Jvh-7A-V9a" collectionClass="NSMutableArray" id="Gjd-Mv-Hop"/>
+                        <outletCollection property="keyboard" destination="a0X-KD-gUM" collectionClass="NSMutableArray" id="8pw-D7-7AE"/>
+                        <outletCollection property="keyboard" destination="kSy-Gh-aJA" collectionClass="NSMutableArray" id="rxP-mr-QQz"/>
+                        <outletCollection property="keyboard" destination="YSR-vO-0co" collectionClass="NSMutableArray" id="tgD-im-3cH"/>
+                        <outletCollection property="keyboard" destination="hue-5X-HSe" collectionClass="NSMutableArray" id="jur-My-syz"/>
+                        <outletCollection property="keyboard" destination="U7E-nK-uY2" collectionClass="NSMutableArray" id="dl9-44-uYh"/>
+                        <outletCollection property="keyboard" destination="khW-ym-sge" collectionClass="NSMutableArray" id="t7h-D8-KrX"/>
+                        <outletCollection property="keyboard" destination="xtZ-Tt-rX3" collectionClass="NSMutableArray" id="aPe-62-ul6"/>
+                        <outletCollection property="keyboard" destination="dXr-5h-noa" collectionClass="NSMutableArray" id="K14-EX-rQS"/>
+                        <outletCollection property="keyboard" destination="hIx-hX-WIm" collectionClass="NSMutableArray" id="JSY-a3-qPJ"/>
+                        <outletCollection property="keyboard" destination="RbJ-Ae-MYH" collectionClass="NSMutableArray" id="MUE-hC-NvS"/>
+                        <outletCollection property="keyboard" destination="qkI-Bk-C9t" collectionClass="NSMutableArray" id="Jft-rv-zDh"/>
+                        <outletCollection property="keyboard" destination="Y5i-sT-iYz" collectionClass="NSMutableArray" id="Q8L-4M-yxF"/>
+                        <outletCollection property="keyboard" destination="qEH-rH-Hei" collectionClass="NSMutableArray" id="Se3-h0-OlH"/>
+                        <outletCollection property="keyboard" destination="c3Y-pK-Tt0" collectionClass="NSMutableArray" id="WId-x4-ILv"/>
+                        <outletCollection property="keyboard" destination="aIB-c0-kok" collectionClass="NSMutableArray" id="18a-fp-31k"/>
+                        <outletCollection property="keyboard" destination="Q3Z-kY-1lW" collectionClass="NSMutableArray" id="2io-5E-aeL"/>
+                        <outletCollection property="keyboard" destination="4D9-wT-ptB" collectionClass="NSMutableArray" id="UeK-Hn-PCb"/>
+                        <outletCollection property="keyboard" destination="nEF-0z-jiq" collectionClass="NSMutableArray" id="cm1-dx-3Fy"/>
+                        <outletCollection property="keyboard" destination="PyW-Oa-sG5" collectionClass="NSMutableArray" id="Vro-h3-6a9"/>
+                        <outletCollection property="keyboard" destination="DrH-0z-RWK" collectionClass="NSMutableArray" id="peU-IP-hpx"/>
+                        <outletCollection property="keyboard" destination="BwA-Rn-JFp" collectionClass="NSMutableArray" id="0Dd-42-hFW"/>
+                        <outletCollection property="keyboard" destination="76x-tv-92y" collectionClass="NSMutableArray" id="RWG-Oa-5gZ"/>
+                        <outletCollection property="keyboard" destination="OkC-yo-dZ3" collectionClass="NSMutableArray" id="dNw-4g-tLd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qam-nU-xBt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="2BE-vu-coj" userLabel="q">
+                    <connections>
+                        <action selector="q:" destination="CFH-yc-JM6" id="5K2-Pp-1QC"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ySx-QT-b8S" userLabel="w">
+                    <connections>
+                        <action selector="w:" destination="CFH-yc-JM6" id="LYx-l8-vt0"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="8L4-9A-psQ" userLabel="e">
+                    <connections>
+                        <action selector="e:" destination="CFH-yc-JM6" id="l61-sF-x76"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="bvV-d0-ojQ" userLabel="r">
+                    <connections>
+                        <action selector="r:" destination="CFH-yc-JM6" id="CfL-cx-ko9"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="7kU-FZ-qxY" userLabel="t">
+                    <connections>
+                        <action selector="t:" destination="CFH-yc-JM6" id="Cbb-Oz-pXc"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="xvP-YW-yeF" userLabel="y">
+                    <connections>
+                        <action selector="y:" destination="CFH-yc-JM6" id="i4Z-hc-YxE"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="dFA-fQ-6U0" userLabel="u">
+                    <connections>
+                        <action selector="u:" destination="CFH-yc-JM6" id="WKs-PZ-leH"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="u5a-Tn-xNi" userLabel="i">
+                    <connections>
+                        <action selector="i:" destination="CFH-yc-JM6" id="BKe-Iv-aNR"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="8aA-Hm-wI2" userLabel="o">
+                    <connections>
+                        <action selector="o:" destination="CFH-yc-JM6" id="wio-fj-n8L"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="yOi-rd-Bgv" userLabel="p">
+                    <connections>
+                        <action selector="p:" destination="CFH-yc-JM6" id="p9G-T5-m1O"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wCJ-VI-CpB" userLabel="a">
+                    <connections>
+                        <action selector="a:" destination="CFH-yc-JM6" id="dRu-By-q7O"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="adW-tg-6oQ" userLabel="s">
+                    <connections>
+                        <action selector="s:" destination="CFH-yc-JM6" id="qBE-Aj-mXh"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="FSu-Wh-HQy" userLabel="d">
+                    <connections>
+                        <action selector="d:" destination="CFH-yc-JM6" id="gnY-rG-Bwv"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wbp-jV-ZBp" userLabel="f">
+                    <connections>
+                        <action selector="f:" destination="CFH-yc-JM6" id="N0s-Gw-mXm"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Afk-Hj-33a" userLabel="g">
+                    <connections>
+                        <action selector="g:" destination="CFH-yc-JM6" id="XVp-LA-eMZ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="0dX-7E-dB3" userLabel="h">
+                    <connections>
+                        <action selector="h:" destination="CFH-yc-JM6" id="2jC-EX-yeW"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="47E-nD-dYr" userLabel="j">
+                    <connections>
+                        <action selector="j:" destination="CFH-yc-JM6" id="dXO-OL-xZ7"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="3CY-ZI-T08" userLabel="k">
+                    <connections>
+                        <action selector="k:" destination="CFH-yc-JM6" id="udB-BT-0jI"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="htv-4k-sK6" userLabel="l">
+                    <connections>
+                        <action selector="l:" destination="CFH-yc-JM6" id="31D-7a-abH"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="raT-ag-vdy" userLabel="z">
+                    <connections>
+                        <action selector="z:" destination="CFH-yc-JM6" id="rXY-Sc-Eeg"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="3sZ-tW-pQy" userLabel="x">
+                    <connections>
+                        <action selector="x:" destination="CFH-yc-JM6" id="F8F-Aw-bGz"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="9i9-Vf-Gw6" userLabel="c">
+                    <connections>
+                        <action selector="c:" destination="CFH-yc-JM6" id="Lnc-KQ-wcE"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="TVP-KL-wm3" userLabel="v">
+                    <connections>
+                        <action selector="v:" destination="CFH-yc-JM6" id="jqS-Dn-5MV"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="I0r-ID-r7j" userLabel="b">
+                    <connections>
+                        <action selector="b:" destination="CFH-yc-JM6" id="osJ-n1-Q3s"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="9oC-Xn-goz" userLabel="n">
+                    <connections>
+                        <action selector="n:" destination="CFH-yc-JM6" id="h5b-qz-IgM"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ZGb-J6-FVd" userLabel="m">
+                    <connections>
+                        <action selector="m:" destination="CFH-yc-JM6" id="wv4-tD-GYu"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="8A1-dV-eQ4" userLabel="tapScreen">
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="CFH-yc-JM6" id="RDc-dZ-tYT"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1860" y="71.514242878560722"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--navController-->
         <scene sceneID="8Ej-RM-ZmL">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cgh-zh-bZ5" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="navController" title="navController" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cgh-zh-bZ5" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="7Py-Fk-rTb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -484,7 +1092,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="keyboard.chevron.compact.left" catalog="system" width="128" height="64"/>
+        <image name="arrow.turn.down.left" catalog="system" width="128" height="99"/>
+        <image name="delete.left.fill" catalog="system" width="128" height="104"/>
         <image name="return" catalog="system" width="128" height="101"/>
     </resources>
 </document>

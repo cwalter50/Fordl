@@ -13,7 +13,7 @@ var currentWordString = ""
 
 var possible = ["fords"]
 
-let genWord = ["pizza", "cenzo", "bravo", "manoa", "drama", "chess", "drama", "wawas"]
+let genWord = ["pizza", "cenzo", "bravo", "manoa", "drama", "chess", "drama", "wawas", "maths", "latin", "cheer", "lunch", "track", "clubs", "ritas", "frosh", "darby", "eagle", "pizza", "manoa", "pride", "study", "delco"]
 
 let hhs = ["borck", "bruno", "colby", "corsi", "creed", "culik", "davit", "geist", "goetz", "grady", "hulea", "jones", "lutes", "lyons", "march", "brown", "moore", "moyer", "perez", "quinn", "reiff", "smith", "smyth", "sonet", "wells"]
 
@@ -49,8 +49,16 @@ class ViewController: UIViewController
     
         possible.removeAll()
         possible.append("fords")
+        print("view loaded")
     }
 
+    override func viewDidAppear(_ animated: Bool)
+    {
+        possible.removeAll()
+        possible.append("fords")
+        print("view loaded")
+    }
+    
     @IBAction func genWordEnabled(_ sender: UISwitch)
     {
     check(sender: sender, bool: &genWordAdd)
