@@ -31,7 +31,7 @@ class secondVC: UIViewController
     
     
     var currentRowLabel: [UILabel]!
-    
+    var curLabel = 0
     var currentRow = 1
     
     
@@ -42,12 +42,15 @@ class secondVC: UIViewController
         currentWord[0] = possible.randomElement()!
         
         currentWordString = currentWord[0].lowercased()
+       
+        print("word is \(currentWordString.lowercased())")
         for i in 0...25
         {
-            print(keyboard[i].text)
+            keyboard[i].layer.cornerRadius = 6.0
+            keyboard[i].clipsToBounds = true
         }
         
-        print("word is \(currentWordString.lowercased())")
+        
     }
 
     @IBAction func enter(_ sender: UIBarButtonItem)
@@ -93,7 +96,6 @@ class secondVC: UIViewController
             else
             {
                 row[j].backgroundColor = UIColor.gray
-                
             }
             
             
@@ -113,6 +115,7 @@ class secondVC: UIViewController
 
     func keyboard(key:UILabel)
     {
+       
         if guessField.text != " "
         {
             guessField.text = "\(guessField.text!.lowercased())\(key.text!.lowercased())"
@@ -122,6 +125,39 @@ class secondVC: UIViewController
             guessField.text = key.text?.lowercased()
         }
         print(key.text!)
+        
+       if curLabel > 4
+        {
+           curLabel = 4
+        }
+        
+        if currentRow == 1
+        {
+            row1[curLabel].text = key.text
+        }
+       
+        if currentRow == 2
+        {
+            row2[curLabel].text = key.text
+        }
+        
+        if currentRow == 3
+        {
+            row3[curLabel].text = key.text
+        }
+        
+        if currentRow == 4
+        {
+            row4[curLabel].text = key.text
+        }
+        
+        if currentRow == 5
+        {
+            row5[curLabel].text = key.text
+        }
+        curLabel += 1
+        
+        
     }
     
     @IBAction func q(_ sender: UITapGestureRecognizer)
@@ -278,10 +314,55 @@ class secondVC: UIViewController
         print("hit")
          if guessField.text != ""
          {
-         var text = guessField.text!
+             var text = guessField.text!
              text.removeLast()
              guessField.text = text
          }
+      
+      
+        curLabel -= 1
+        if curLabel < 0
+        {
+            curLabel = 0
+        }
+        else if curLabel > 4
+        {
+            curLabel = 4
+        }
+       
+            if currentRow == 1
+        {
+//            curLabel -= 1
+            row1[curLabel].text = "-"
+        }
+       
+            if currentRow == 2
+        {
+//                curLabel -= 1
+                row2[curLabel].text = "-"
+        }
+        
+            if currentRow == 3
+        {
+//                curLabel -= 1
+                row3[curLabel].text = "-"
+        }
+        
+            if currentRow == 4
+        {
+//                curLabel -= 1
+                row4[curLabel].text = "-"
+        }
+        
+            if currentRow == 5
+        {
+                
+               
+                row5[curLabel].text = "-"
+        
+     
+        
+     }
     }
     
 
